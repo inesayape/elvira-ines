@@ -1,0 +1,40 @@
+.news{
+  background-color: #C97FFD;
+  border-radius: 10px;
+  color: white;
+}
+.hello{
+  background-color: #C97FFD;
+  border-radius: 10px;
+  color: black;
+}
+.carrete{
+  width: 100%;
+  background-image: url(../imagenes/carretebienfin.jpg);
+  background-repeat: repeat;
+  height: 238px;
+}
+.colorBarra{
+  background: #FBB3F6;
+}
+
+.jumbotron {
+  background-image: url(../imagenes/1500x300.jpg);
+  background-size: contain;
+  min-height: 270px;
+}
+
+.boton{
+  background-color: #FF88F7;
+}
+.letracolor{
+  color: white;
+}
+
+.color1{
+  background-color: #FFCEFC ;
+}
+
+.color2{
+  background-color: #C0FBBA ;
+}

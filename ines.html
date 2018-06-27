@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/estilos4.css">
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="jumbotron"></div>
+    <div class="colorBarra">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Menú</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Cine
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Estrenos</a>
+              <a class="dropdown-item" href="#">Premios internacionales</a>
+              <a class="dropdown-item" href="cinemapa.html">Tu cine más cercano</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Series
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Estrenos</a>
+              <a class="dropdown-item" href="#">Netflix</a>
+              <a class="dropdown-item" href="#">Premios</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Música
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Nuevos lanzamientos</a>
+              <a class="dropdown-item" href="#">Conciertos nacionales</a>
+              <a class="dropdown-item" href="#">Top 20 artistas del momento</a>
+                <a class="dropdown-item" href="#">Premios internacionales</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sobre nosostras
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Elvira</a>
+              <a class="dropdown-item" href="#">Inés</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Extras
+            </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Merchandising</a>
+            <a class="dropdown-item" href="#">Promociones y descuentos</a>
+          </div>
+   </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+</div>
+<br>
+  <img width="200px"src="imagenes/ines.jpg" alt="ines">
+<br>
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header boton" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link letracolor" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Sobre mi
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        Hola!! Mi nombre es Inés, y al igual que Elvira (vamos juntas a clase) soy una estudiante de bachillerato de ciencias en Pinto. Me encanta ver series y escuchar musica (de ahí que creramos la página), y también me gusta mucho el arte y dibujar.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header boton" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed letracolor" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Cine y series
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        No tengo pelicula favorita pero algunas de las que más me gustan son "Ahora me ves", "Pesadilla antes de Navidad"
+        Algunas de mis series favoritas son: "Stranger Things", "Lucifer" y "the Big Bang Theory" entre otras.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header boton" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed letracolor" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Música
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        Mi grupo favorito es "The Chainsmokers", aunque también me gusta "Maroon 5" y algunos cantantes como "Melanie Martinez", "Charlie Puth", y "Bazzi" entre muchos otros.
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="Carousel/amv.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Ahora me Ves</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="carousel/pn.jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pesadilla antes de navidad</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="carousel/am.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Alicia en el País de las Maravillas</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="carousel/st2.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Stranger Things</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="carousel/luci.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Lucifer</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="carousel/bbt.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>The Big Bang Theory</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="carousel/tc.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>The Chainsmokers</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="carousel/m5.png" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Maroon 5</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="carousel/mm.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Melanie Martinez</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="carousel/cp.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Charlie Puth</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="carousel/b.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Bazzi</h5>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+<hr>
+    <div class="text-center">
+      <p>Si quieres enterarte de todas las novedades,</p>
+      <p>¡no dudes en seguirnos!</p>
+    </div>
+  </body>
+<div class="text-center">
+ <a target="blank" href="https://www.instagram.com/vce.ia.el/?hl=es"><img width="60px" src="imagenes/insta.png"></a>
+ <a target="blank" href="https://twitter.com/Vce16679831"><img width="60px" src="imagenes/twitter.png"></a>
+ <a target="blank" href="https://www.facebook.com/elvira.ines.5011"><img width="50px" src="imagenes/facebook.png"></a>
+ <a target="_blank" href="https://www.youtube.com/channel/UCmjsjEPH2V16MCojEe3wQCQ/featured"><img width="60px" src="imagenes/youtube.png"></a>
+</div>
+<hr>
+</html>

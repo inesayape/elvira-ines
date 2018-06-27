@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function escribeCine(){
+        if(document.getElementById("Madrid").checked){
+          alert("Tu cine más cercano esta en la plaza de Callao!");
+        } else if(document.getElementById('Barcelona').checked){
+          alert("Tu cine más cercano esta en la plaza de Barcelona!");
+        } else if(document.getElementById('Valencia').checked) {
+          alert("Tu cine más cercano esta en la plaza de Valencia!");
+        }
+      }
+    </script>
+    <title>Tu cine</title>
+  </head>
+  <body>
+    <p>Encuentra tu cine</p>
+    <form onsubmit="return escribeCine();">
+      Madrid <input type="radio" name="ciudad" id="Madrid" checked="checked">
+      Barcelona <input type="radio" name="ciudad" id="Barcelona">
+      Valencia <input type="radio" name="ciudad" id="Valencia">
+      <input type="submit">
+    </form>
+  </body>
+</html>
